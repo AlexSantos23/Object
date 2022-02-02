@@ -10,7 +10,31 @@ delete dados.cabelo
 
 console.log(dados)
 
+let cadastro = [{
+    nome: "Alex",
+    idade: 21,
+    telefone: 000000000,
+    amigos: ["A","B","c","D"]
+},{
+    nome: "Liv",
+    idade: 18,
+    telefone: 00000000,
+    amigos:["A","B","C","D"]
+},{
+    nome: "Gabriel",
+    idade: 19,
+    telefone: 0000000000,
+    amigos:["A","B","C","D"]
+},{
+    nome: "Nathan",
+    idade: 22,
+    telefone: 000000,
+    amigos: ["A","B","C","D"]
+},{
+    nome: "Landi"
+    idade: 22,
+    telefone: 0000000,
+    amigos: ["A","B","C","D"]
+}]
 
-let cadastro = {nome:"Alex", idade:"21", telefone:"(00)000000000", amigos:["Liv", "Landi", "Gabriel", "Nathan"]}
-
-console.log(cadastro.amigos[0])
+console.log(cadastro)
