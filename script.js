@@ -31,10 +31,17 @@ let cadastro = [{
     telefone: 000000,
     amigos: ["A","B","C","D"]
 },{
-    nome: "Landi"
+    nome: "Landi",
     idade: 22,
     telefone: 0000000,
     amigos: ["A","B","C","D"]
 }]
 
-console.log(cadastro)
+console.log(cadastro[0].amigos[3])
+console.log(cadastro[1].amigos[2])
+console.log(cadastro[2].amigos[1])
+console.log(cadastro[3].amigos[0])
+console.log(cadastro[4].amigos[2])
+
+
+
